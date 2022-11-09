@@ -88,13 +88,6 @@
         "env": []
     },
     {
-        "id": "51136e81.a26bb",
-        "type": "tab",
-        "label": "Example2",
-        "disabled": true,
-        "info": ""
-    },
-    {
         "id": "25d74e9ec188f9b6",
         "type": "tab",
         "label": "Flow 8",
@@ -551,214 +544,6 @@
         "parallelUnitIdsAllowed": true
     },
     {
-        "id": "3dec2e02cd4f3fac",
-        "type": "modbus-client",
-        "name": "",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "queueLogEnabled": false,
-        "tcpHost": "demos-ampere.ddns.net",
-        "tcpPort": "503",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
-        "reconnectOnTimeout": true,
-        "reconnectTimeout": 2000,
-        "parallelUnitIdsAllowed": true
-    },
-    {
-        "id": "28c906aa.79aae2",
-        "type": "modbus-client",
-        "name": "TCP1",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "queueLogEnabled": false,
-        "tcpHost": "192.168.1.66",
-        "tcpPort": "502",
-        "tcpType": "TPC-RTU-BUFFERED",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "unit_id": 1,
-        "commandDelay": 200,
-        "clientTimeout": 1000,
-        "reconnectOnTimeout": true,
-        "reconnectTimeout": 2000,
-        "parallelUnitIdsAllowed": true
-    },
-    {
-        "id": "db6f9b3e.e5f338",
-        "type": "modbus-client",
-        "name": "local",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "tcpHost": "127.0.0.1",
-        "tcpPort": "10502",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
-        "reconnectTimeout": 2000
-    },
-    {
-        "id": "48496f3b.10762",
-        "type": "modbus-client",
-        "name": "local",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "tcpHost": "127.0.0.1",
-        "tcpPort": "10502",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
-        "reconnectTimeout": 2000
-    },
-    {
-        "id": "74dd717f.076f2",
-        "type": "modbus-client",
-        "name": "Power meter",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "queueLogEnabled": false,
-        "tcpHost": "192.168.0.98",
-        "tcpPort": "502",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "unit_id": "1",
-        "commandDelay": "1",
-        "clientTimeout": "1000",
-        "reconnectOnTimeout": true,
-        "reconnectTimeout": "2000",
-        "parallelUnitIdsAllowed": true
-    },
-    {
-        "id": "f90ef26a.a529a",
-        "type": "modbus-client",
-        "name": "",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": true,
-        "tcpHost": "127.0.0.1",
-        "tcpPort": "502",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "unit_id": "1",
-        "commandDelay": "1",
-        "clientTimeout": "1000",
-        "reconnectTimeout": "2000"
-    },
-    {
-        "id": "bb35e927.f880e8",
-        "type": "modbus-client",
-        "name": "Router",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "tcpHost": "192.168.1.1",
-        "tcpPort": "502",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "unit_id": "1",
-        "commandDelay": "1",
-        "clientTimeout": "1000",
-        "reconnectTimeout": "2000"
-    },
-    {
-        "id": "22905fa6.bb9e8",
-        "type": "modbus-client",
-        "name": "",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": true,
-        "tcpHost": "127.0.0.1",
-        "tcpPort": "502",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
-        "reconnectTimeout": 2000
-    },
-    {
-        "id": "122cb0c8.19f0bf",
-        "type": "modbus-client",
-        "name": "Mod-Bus Caldeira E.T.A",
-        "clienttype": "serial",
-        "bufferCommands": true,
-        "stateLogEnabled": true,
-        "tcpHost": "127.0.0.1",
-        "tcpPort": "502",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyAP0",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "unit_id": "",
-        "commandDelay": 1,
-        "clientTimeout": 2000,
-        "reconnectTimeout": 2000
-    },
-    {
         "id": "0b7a00e8450143f2",
         "type": "modbus-client",
         "name": "modbus_Client_from_Host_192.168.1.3",
@@ -766,6 +551,7 @@
         "bufferCommands": true,
         "stateLogEnabled": false,
         "queueLogEnabled": false,
+        "failureLogEnabled": false,
         "tcpHost": "192.168.1.3",
         "tcpPort": "502",
         "tcpType": "DEFAULT",
@@ -886,54 +672,6 @@
         "type": "ui_tab",
         "name": "Modbus",
         "icon": "dashboard"
-    },
-    {
-        "id": "5abf1f53.dc4c7",
-        "type": "ui_tab",
-        "name": "Router",
-        "icon": "router",
-        "order": 5,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "1fc0c274.125a6e",
-        "type": "ui_group",
-        "name": "Modbus Test",
-        "tab": "91a58fa4.8a8b4",
-        "order": 1,
-        "disp": true,
-        "width": "6"
-    },
-    {
-        "id": "29344771.8d9648",
-        "type": "ui_group",
-        "name": "GSM network",
-        "tab": "5abf1f53.dc4c7",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "60fd2c2e.5d5ce4",
-        "type": "ui_group",
-        "name": "Router",
-        "tab": "5abf1f53.dc4c7",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "48110a04.687a34",
-        "type": "ui_group",
-        "name": "Data usage",
-        "tab": "5abf1f53.dc4c7",
-        "order": 3,
-        "disp": true,
-        "width": "6",
-        "collapse": false
     },
     {
         "id": "c1d5eb0adb86a872",
@@ -19636,183 +19374,6 @@
         "registerShowMax": 20,
         "x": 890,
         "y": 600,
-        "wires": []
-    },
-    {
-        "id": "3fc6c701.3a4d18",
-        "type": "function",
-        "z": "51136e81.a26bb",
-        "name": "F/ Vazão Total Caldeira",
-        "func": "msg.payload = {\n    'value' : msg.payload,\n    'fc' : 3,\n    'unitid' : 9,\n    'address' : 13,\n    'quantity' : 4\n};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 530,
-        "y": 200,
-        "wires": [
-            [
-                "2d967e4a.03a262"
-            ]
-        ]
-    },
-    {
-        "id": "2d967e4a.03a262",
-        "type": "modbus-flex-getter",
-        "z": "51136e81.a26bb",
-        "name": "Caldeira",
-        "showStatusActivities": false,
-        "server": "122cb0c8.19f0bf",
-        "x": 740,
-        "y": 200,
-        "wires": [
-            [
-                "85844cd1.59809",
-                "2ed8805c.e9e6d"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "d4608f69.91033",
-        "type": "inject",
-        "z": "51136e81.a26bb",
-        "name": "",
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 288.981502532959,
-        "y": 326.481481552124,
-        "wires": [
-            [
-                "3fc6c701.3a4d18",
-                "e4dd9c63.55cf3"
-            ]
-        ]
-    },
-    {
-        "id": "4e2d0fae.c54ca",
-        "type": "debug",
-        "z": "51136e81.a26bb",
-        "name": "",
-        "active": true,
-        "console": "false",
-        "complete": "false",
-        "x": 1230,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "92837d37.48d4",
-        "type": "modbus-flex-getter",
-        "z": "51136e81.a26bb",
-        "name": "Caldeira",
-        "showStatusActivities": false,
-        "server": "122cb0c8.19f0bf",
-        "x": 720,
-        "y": 320,
-        "wires": [
-            [
-                "e16dee69.b84ac"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "e4dd9c63.55cf3",
-        "type": "function",
-        "z": "51136e81.a26bb",
-        "name": "F/ Vazão Inst Caldeira",
-        "func": "msg.payload = {\n    'value' : msg.payload,\n    'fc' : 3,\n    'unitid' : 9,\n    'address' : 12,\n    'quantity' : 1\n};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 526.6666641235352,
-        "y": 320,
-        "wires": [
-            [
-                "92837d37.48d4"
-            ]
-        ]
-    },
-    {
-        "id": "e16dee69.b84ac",
-        "type": "debug",
-        "z": "51136e81.a26bb",
-        "name": "",
-        "active": false,
-        "console": "false",
-        "complete": "false",
-        "x": 910,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "e5458557.99c0a8",
-        "type": "template",
-        "z": "51136e81.a26bb",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "{{payload.values}}",
-        "output": "str",
-        "x": 800,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "85844cd1.59809",
-        "type": "function",
-        "z": "51136e81.a26bb",
-        "name": "",
-        "func": "const buf = Buffer.from(msg.payload.buffer);\nconst value = buf.readBigInt64BE()\nmsg.payload = {\"vazao\": value};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 940,
-        "y": 140,
-        "wires": [
-            [
-                "bacb17c3.b90d88"
-            ]
-        ]
-    },
-    {
-        "id": "bacb17c3.b90d88",
-        "type": "join",
-        "z": "51136e81.a26bb",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "4",
-        "x": 1078.3332557678223,
-        "y": 137.59259414672852,
-        "wires": [
-            [
-                "4e2d0fae.c54ca"
-            ]
-        ]
-    },
-    {
-        "id": "2ed8805c.e9e6d",
-        "type": "debug",
-        "z": "51136e81.a26bb",
-        "name": "",
-        "active": true,
-        "console": "false",
-        "complete": "false",
-        "x": 950,
-        "y": 200,
         "wires": []
     },
     {
@@ -41716,7 +41277,7 @@
         "overwriteFile": "false",
         "encoding": "none",
         "x": 680,
-        "y": 80,
+        "y": 40,
         "wires": [
             []
         ]
@@ -41737,7 +41298,7 @@
         "include_empty_strings": "",
         "include_null_values": "",
         "x": 550,
-        "y": 80,
+        "y": 40,
         "wires": [
             [
                 "ace426c52433d257"
